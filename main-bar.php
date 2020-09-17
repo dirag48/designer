@@ -14,7 +14,7 @@ if( !isset( $image['0'] ) ){
 ?>
 <div class="nbd-main-bar">
 <!-- LEE EDITS REPLACE SHOP BUTTON -->
-    <!-- <a href="<?php //echo get_permalink( wc_get_page_id( 'shop' ) ); ?>" class="logo <?php //if( $without_logo ) echo ' logo-without-image'; ?>"> -->
+    <!-- <a href="<?php echo get_permalink( wc_get_page_id( 'shop' ) ); ?>" class="logo <?php //if( $without_logo ) echo ' logo-without-image'; ?>"> -->
 	<a href="https://panaceacreative.com/demos/wordpress3/flyers/" class="logo <?php if($without_logo) echo ' logo-without-image'; ?>">
         <?php if( !$without_logo ): ?>
         <img src="<?php echo esc_url( $logo_url );?>" alt="online design">
